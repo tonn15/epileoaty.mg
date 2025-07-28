@@ -85,7 +85,8 @@ $table_prefix = 'wpmr_';
  *
  * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
+set_time_limit(300);
 
 /* Add any custom values between this line and the "stop editing" line. */
 
